@@ -1,6 +1,6 @@
 html, body {
     font-family: Arial, Helvetica, sans-serif;
-    background-color: #fff9c4;
+    background-color:#fff59d;
     margin-top: 0px;
     margin-left: 0px;
     margin-right: 0px;
@@ -18,16 +18,20 @@ html, body {
     text-decoration: none;
     padding: 20pt;
 
-
-
-
 }
 
 .principal {
     margin-left: 80pt;
     margin-right: 80pt;
-    background-color: #0277bd;
+    background-color: #448aff;
     padding-bottom: 70pt;
+}
+.container{
+    margin-left: 80pt;
+    margin-right: 80pt;
+    
+    
+
 }
 
 .tituloGrande {
@@ -44,6 +48,30 @@ html, body {
     font-size: 1.25rem;
     font-weight: 300;
 }
+.cardPrincipal{
+    width:200pt ;
+    height: 280pt;
+    border: solid #448aff;
+    border-width: 2px;
+    margin: 15pt;
+    display: inline-block;
+    justify-content: space-around;
+    
+    
+    
+    
+    
+   
+    
+}
+.direcao{
+    
+    
+    
+    
+
+    
+}
 
 .botaoGrande {
     display: block;
@@ -55,6 +83,7 @@ html, body {
     padding-top: 15pt;
     margin-top: 20pt;
     text-align: center;
+    border-radius: 10px;
 
 
 }
