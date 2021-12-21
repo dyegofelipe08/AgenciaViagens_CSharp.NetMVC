@@ -1,0 +1,46 @@
+body{
+    font-family: Arial, Helvetica, sans-serif;
+}
+#formaPagamento{
+    color: red;
+}
+.menu a {
+    color: white;
+    text-decoration: none;
+    
+}
+.menu{
+    background-color: red;
+    text-decoration:none;
+
+}
+#rodape{
+    text-align: center;
+}
+.categorias{
+    float: left;
+    margin-bottom: 80%;
+    margin-right: 50px;
+    width: 250px;
+    height: 100%;
+    border: solid red;
+    
+    
+
+
+    
+}
+.produtos{
+    width: 100%;
+}
+.box_produto{
+  display: inline-block;
+ width: 250px;
+ height: 250px;
+  
+    
+    
+}
+.preco{
+    color: red;
+}

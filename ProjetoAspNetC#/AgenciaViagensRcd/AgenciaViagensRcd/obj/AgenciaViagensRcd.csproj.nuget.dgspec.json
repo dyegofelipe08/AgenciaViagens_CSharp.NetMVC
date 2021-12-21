@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "E:\\DEV SISTEMAS\\CURSOS\\FULL STACK RECODE PRO\\RECODE_PRO_FULL_STACK\\Módulo III\\AtividadeDoModulo3\\AgenciaViagensRcd\\AgenciaViagensRcd\\AgenciaViagensRcd.csproj": {}
+    "E:\\DEV SISTEMAS\\Projetos\\AtividadeMo3RecodePro\\AtividadeMod3RecodePro\\ProjetoAspNetC#\\AgenciaViagensRcd\\AgenciaViagensRcd\\AgenciaViagensRcd.csproj": {}
   },
   "projects": {
-    "E:\\DEV SISTEMAS\\CURSOS\\FULL STACK RECODE PRO\\RECODE_PRO_FULL_STACK\\Módulo III\\AtividadeDoModulo3\\AgenciaViagensRcd\\AgenciaViagensRcd\\AgenciaViagensRcd.csproj": {
+    "E:\\DEV SISTEMAS\\Projetos\\AtividadeMo3RecodePro\\AtividadeMod3RecodePro\\ProjetoAspNetC#\\AgenciaViagensRcd\\AgenciaViagensRcd\\AgenciaViagensRcd.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "E:\\DEV SISTEMAS\\CURSOS\\FULL STACK RECODE PRO\\RECODE_PRO_FULL_STACK\\Módulo III\\AtividadeDoModulo3\\AgenciaViagensRcd\\AgenciaViagensRcd\\AgenciaViagensRcd.csproj",
+        "projectUniqueName": "E:\\DEV SISTEMAS\\Projetos\\AtividadeMo3RecodePro\\AtividadeMod3RecodePro\\ProjetoAspNetC#\\AgenciaViagensRcd\\AgenciaViagensRcd\\AgenciaViagensRcd.csproj",
         "projectName": "AgenciaViagensRcd",
-        "projectPath": "E:\\DEV SISTEMAS\\CURSOS\\FULL STACK RECODE PRO\\RECODE_PRO_FULL_STACK\\Módulo III\\AtividadeDoModulo3\\AgenciaViagensRcd\\AgenciaViagensRcd\\AgenciaViagensRcd.csproj",
+        "projectPath": "E:\\DEV SISTEMAS\\Projetos\\AtividadeMo3RecodePro\\AtividadeMod3RecodePro\\ProjetoAspNetC#\\AgenciaViagensRcd\\AgenciaViagensRcd\\AgenciaViagensRcd.csproj",
         "packagesPath": "C:\\Users\\Dyego\\.nuget\\packages\\",
-        "outputPath": "E:\\DEV SISTEMAS\\CURSOS\\FULL STACK RECODE PRO\\RECODE_PRO_FULL_STACK\\Módulo III\\AtividadeDoModulo3\\AgenciaViagensRcd\\AgenciaViagensRcd\\obj\\",
+        "outputPath": "E:\\DEV SISTEMAS\\Projetos\\AtividadeMo3RecodePro\\AtividadeMod3RecodePro\\ProjetoAspNetC#\\AgenciaViagensRcd\\AgenciaViagensRcd\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files\\dotnet\\sdk\\NuGetFallbackFolder"
