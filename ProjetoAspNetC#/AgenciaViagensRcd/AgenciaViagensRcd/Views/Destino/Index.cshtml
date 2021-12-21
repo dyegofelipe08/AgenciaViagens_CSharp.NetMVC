@@ -1,0 +1,28 @@
+﻿@model IEnumerable<AgenciaViagensRcd.Models.Destino>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<h1 class="display-2">Destinos</h1>
+
+<h3 class="display-4">Selecione seu destino...</h3>
+
+<div class="container-fluid d-flex justify-content-between flex-wrap ">
+    @foreach (var item in Model)
+    {
+        <div class="card mt-3 shadow-lg rounded mb-4" style="width: 18rem; background-color: #448aff ">
+            <img class="card-img-top" src=" @Html.DisplayFor(modelItem => item.UrlImagem)" alt="Imagem de capa do card" height="180">
+            <div class="card-body">
+                <h4 class="card-title text-white text-center">@Html.DisplayFor(modelItem => item.NomeDestino)</h4>
+                <p class="card-text lead text-white text-center"> Apenas: <b>R$ @Html.DisplayFor(modelItem => item.PrecoUnitario)</b> </p>
+                <a asp-controller="Pedido" asp-action="Create" class="btn btn-success btn-block">Fazer pedido</a>
+            </div>
+        </div>
+    }
+    
+</div>
+<div class="container text-center">
+    <a asp-controller="Home" asp-action="Index" class="btn btn-success">Home</a>
+</div>
+

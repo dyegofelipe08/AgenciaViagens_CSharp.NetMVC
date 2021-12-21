@@ -1,0 +1,42 @@
+﻿@model AgenciaViagensRcd.Models.PedidoPromo
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1 class="display-4">Falta pouco...</h1>
+
+
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="ClienteIdCliente" class="control-label">Selecione seu CPF:</label>
+                <select asp-for="ClienteIdCliente" class="form-control" asp-items="ViewBag.ClienteIdCliente"></select>
+            </div>
+            <div class="form-group">
+                <label asp-for="DestinoPromoIdDestinoPromo" class="control-label">Selecione o destino escolhido:</label>
+                <select asp-for="DestinoPromoIdDestinoPromo" class="form-control" asp-items="ViewBag.DestinoPromoIdDestinoPromo"></select>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Gerar pedido" class="btn btn-success" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <p class="lead">
+        Ainda não está cadastrado?  <a asp-controller="Cliente" asp-action="Create">Clique aqui!</a><br />
+    </p>
+</div>
+
+<div>
+    <a asp-controller="DestinoPromo" asp-action="Index">Voltar para promoções</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}

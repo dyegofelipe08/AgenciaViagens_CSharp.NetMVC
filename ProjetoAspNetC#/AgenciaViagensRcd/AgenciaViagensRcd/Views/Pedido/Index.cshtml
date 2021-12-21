@@ -1,0 +1,11 @@
+﻿@model IEnumerable<AgenciaViagensRcd.Models.Pedido>
+
+@{
+    ViewData["Title"] = "Index";
+}
+
+<div class="container text-center">
+    <h1 class="display-3 text-center">Pedido realizado com sucesso!</h1>
+    <p class="lead"> Aguarde a confirmação por e-mail... Obrigado e volte sempre! </p><br />
+    <a asp-controller="Home" asp-action="Index" class="btn btn-success">Voltar ao início</a>
+</div>

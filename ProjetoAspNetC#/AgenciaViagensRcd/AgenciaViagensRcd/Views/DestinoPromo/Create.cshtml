@@ -1,0 +1,48 @@
+﻿@model AgenciaViagensRcd.Models.DestinoPromo
+
+@{
+    ViewData["Title"] = "Create";
+}
+
+<h1>Create</h1>
+
+<h4>DestinoPromo</h4>
+<hr />
+<div class="row">
+    <div class="col-md-4">
+        <form asp-action="Create">
+            <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+            <div class="form-group">
+                <label asp-for="NomeDestinoPromo" class="control-label"></label>
+                <input asp-for="NomeDestinoPromo" class="form-control" />
+                <span asp-validation-for="NomeDestinoPromo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="Preco" class="control-label"></label>
+                <input asp-for="Preco" class="form-control" />
+                <span asp-validation-for="Preco" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="PrecoUnitarioPromo" class="control-label"></label>
+                <input asp-for="PrecoUnitarioPromo" class="form-control" />
+                <span asp-validation-for="PrecoUnitarioPromo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <label asp-for="UrlImagemPromo" class="control-label"></label>
+                <input asp-for="UrlImagemPromo" class="form-control" />
+                <span asp-validation-for="UrlImagemPromo" class="text-danger"></span>
+            </div>
+            <div class="form-group">
+                <input type="submit" value="Create" class="btn btn-primary" />
+            </div>
+        </form>
+    </div>
+</div>
+
+<div>
+    <a asp-action="Index">Back to List</a>
+</div>
+
+@section Scripts {
+    @{await Html.RenderPartialAsync("_ValidationScriptsPartial");}
+}
