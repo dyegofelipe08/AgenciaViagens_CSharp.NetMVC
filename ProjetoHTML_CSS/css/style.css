@@ -27,9 +27,10 @@ html, body {
     margin-left: 80pt;
     margin-right: 80pt;
     background-color: #0277bd;
+    padding-bottom: 70pt;
 }
 
-.tituloGrande{
+.tituloGrande {
     color: white;
     text-align: center;
     font-size: 6rem;
@@ -37,11 +38,30 @@ html, body {
     line-height: 1.2;
 }
 
-.paragrafoPriinciapl {
+.paragrafoPriincipal {
     color: white;
     text-align: center;
     font-size: 1.25rem;
     font-weight: 300;
+}
+
+.botaoGrande {
+    display: block;
+    width: 100%;
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    padding-bottom: 15pt;
+    padding-top: 15pt;
+    margin-top: 20pt;
+    text-align: center;
+
+
+}
+.molde{
+    margin-left: 80pt;
+    margin-right: 80pt;
+    
 }
 
 #rodape {
