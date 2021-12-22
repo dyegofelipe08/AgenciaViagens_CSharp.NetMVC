@@ -3,7 +3,7 @@
 
 <head>
     <meta charset="UTF-8">
-    <title>Contato</title>
+    <title>Pedido</title>
     <link rel="stylesheet" href="css/style.css">
 </head>
 
@@ -17,20 +17,20 @@
     </nav>
     <main>
         <div class="container">
-            
-            <h1 class="tituloGrande2">Fale conosco</h1>
-            <h3 class="tituloMedio">Estamos dispostos a ajudar você...</h3>
+            <h1 class="tituloMedio">Falta pouco...</h1>
             <hr>
-            <form action="contatoSucess.html">
-                <label for="msg">Descreva o que deseja:</label><br>
-                <textarea name="msg" id="msg" cols="80" rows="10"></textarea><br><br>
+            <form action="pedidoSucess.html">
                 <label for="cpf">Selecione seu CPF:</label><br>
                 <select name="cpf" id="cpf">
                     <option value="null"></option>
                     <option value="cpf1">Números dos CPFs cadastrados</option>
-                </select><br>
-                <button type="submit" class="botaoHome">Enviar</button><br>
-              
+                </select><br><br>
+                <label for="destino">Selecione o destino escolhido:</label><br>
+                <select name="destino" id="destino">
+                    <option value="null"></option>
+                    <option value="destino">Destinos cadastrados</option>
+                </select>
+                <button type="submit" class="botaoHome">Gerar pedido</button><br>
 
                 <p>Ainda não está cadastrado? <a href="cadastro.html">Clique aqui!</a></p>
 
@@ -41,7 +41,12 @@
 
         </div>
 
+
+
     </main>
+
+
+
 
     <hr>
 

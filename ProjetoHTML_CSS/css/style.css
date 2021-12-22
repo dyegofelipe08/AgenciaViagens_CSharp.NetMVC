@@ -16,7 +16,7 @@ html, body {
 .menu {
     background-color: #00c853;
     text-decoration: none;
-    padding: 20pt;
+    padding: 15pt;
 
 }
 
@@ -40,6 +40,19 @@ html, body {
     font-size: 6rem;
     font-weight: 300;
     line-height: 1.2;
+    
+}
+.tituloGrande2{
+    color: black;
+    font-size: 6rem;
+    font-weight: 300;
+    line-height: 1.2;
+}
+.tituloMedio{
+    color: black;
+    font-size: 3rem;
+    font-weight: 1;
+    line-height: 1.2;
 }
 
 .paragrafoPriincipal {
@@ -48,28 +61,44 @@ html, body {
     font-size: 1.25rem;
     font-weight: 300;
 }
+.paragrafoCard{
+    color: white;
+    text-align: center;
+    font-size: 1.25rem;
+    font-weight: 300;
+}
 .cardPrincipal{
-    width:200pt ;
-    height: 280pt;
+    width:300px ;
+    height: 370px;
     border: solid #448aff;
-    border-width: 2px;
-    margin: 15pt;
-    display: inline-block;
-    justify-content: space-around;
-    
-    
-    
-    
+    border-width: 1px;
+    margin: 40px;
+    padding: 0px;
+    border-radius: 10px;
+    text-align: center;
+    background-color:#448aff ;
     
    
     
 }
 .direcao{
     
-    
-    
+    width:85%;
+    display: flex;
+    justify-content: left;
+    align-items: flex-end;
+    flex-wrap: wrap;
+    margin: 0 auto;
     
 
+    
+}
+.imgCard{
+    margin: 0px;
+    justify-content: center;
+    align-items: center;
+    padding: 0px;
+    border-radius: 10px 10px 0px 0px;
     
 }
 
@@ -86,6 +115,40 @@ html, body {
     border-radius: 10px;
 
 
+}
+.botao{
+    display: inline-block;
+    width: 50%;
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    padding-bottom: 8pt;
+    padding-top: 8pt;
+    margin-top: 5pt;
+    margin-bottom: 25pt;
+    text-align: center;
+    border-radius: 10px;
+    align-content: center;
+    justify-content: center;
+    
+}
+.botaoHome{
+    display: block;
+    width: 10%;
+    color: #fff;
+    background-color: #28a745;
+    border-color: #28a745;
+    padding-bottom: 8pt;
+    padding-top: 8pt;
+    margin-top: 25pt;
+    margin-bottom:25pt;
+    text-align: center;
+    border-radius: 10px;
+   
+}
+.botaoCenter{
+display: flex;
+justify-content: center;
 }
 .molde{
     margin-left: 80pt;
@@ -123,7 +186,18 @@ html, body {
 
 
 }
-
-.preco {
-    color: red;
+input{
+    height: 25px;
+    width: 400px;
+    border-radius: 5px;
+    border:solid black 1px;
 }
+select{
+    height: 25px;
+    width: 400px;
+    border-radius: 5px;
+    border:solid black 1px;
+}
+
+
+    
